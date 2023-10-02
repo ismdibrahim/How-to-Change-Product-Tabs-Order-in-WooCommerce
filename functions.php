@@ -1,3 +1,5 @@
+<?php
+
 add_filter( 'woocommerce_product_tabs', 'woo_reorder_tabs', 98 );
 function woo_reorder_tabs( $tabs ) {
 
